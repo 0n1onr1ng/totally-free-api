@@ -16,13 +16,6 @@ This project focuses exclusively on APIs that are:
 
 ## 📋 API Categories
 
-### 🌍 Geography & Location
-| API | Description | HTTPS | Link |
-|-----|-------------|-------|------|
-| REST Countries | Get information about countries | ✅ | [Go!](https://restcountries.com/) |
-| IP Geolocation | Get geolocation data from IP address | ✅ | [Go!](http://ip-api.com/) |
-| Zippopotam.us | Postal and zip code data | ✅ | [Go!](http://www.zippopotam.us/) |
-
 ### 🎲 Random Data
 | API | Description | HTTPS | Link |
 |-----|-------------|-------|------|
@@ -30,11 +23,6 @@ This project focuses exclusively on APIs that are:
 | JSONPlaceholder | Fake JSON data for testing | ✅ | [Go!](https://jsonplaceholder.typicode.com/) |
 | Lorem Picsum | Random placeholder images | ✅ | [Go!](https://picsum.photos/) |
 | Random Quote | Inspirational quotes | ✅ | [Go!](https://api.quotable.io/) |
-
-### 🌤️ Weather
-| API | Description | HTTPS | Link |
-|-----|-------------|-------|------|
-| Open-Meteo | Weather forecasts | ✅ | [Go!](https://open-meteo.com/) |
 
 ### 🔢 Utilities
 | API | Description | HTTPS | Link |
@@ -46,8 +34,8 @@ This project focuses exclusively on APIs that are:
 ### 🎨 Images & Media
 | API | Description | HTTPS | Link |
 |-----|-------------|-------|------|
-| Unsplash Source | Random high-quality photos | ✅ | [Go!](https://source.unsplash.com/) |
-| Placeholder.com | Placeholder images | ✅ | [Go!](https://placeholder.com/) |
+| Unsplash Source | Random high-quality photos | ✅ | [Go!](https://unsplash.com/) |
+| Placeholder.com | Placeholder images | ✅ | [Go!](https://placeholder.co/) |
 | Robohash | Generate robot/monster avatars | ✅ | [Go!](https://robohash.org/) |
 
 ### 📊 Data & Information
@@ -55,12 +43,22 @@ This project focuses exclusively on APIs that are:
 |-----|-------------|-------|------|
 | Numbers API | Facts about numbers | ✅ | [Go!](http://numbersapi.com/) |
 | Cat Facts | Random cat facts | ✅ | [Go!](https://catfact.ninja/) |
-| Bored API | Random activity suggestions | ✅ | [Go!](https://www.boredapi.com/) |
+
+### 🌍 Geography & Location
+| API | Description | HTTPS | Link |
+|-----|-------------|-------|------|
+| REST Countries | Get information about countries | ✅ | [Go!](https://restcountries.com/) |
+| IP Geolocation | Get geolocation data from IP address | ✅ | [Go!](http://ip-api.com/) |
+| Zippopotam.us | Postal and zip code data | ✅ | [Go!](http://www.zippopotam.us/) |
+
+### 🌤️ Weather
+| API | Description | HTTPS | Link |
+|-----|-------------|-------|------|
+| Open-Meteo | Weather forecasts | ✅ | [Go!](https://open-meteo.com/) |
 
 ### 🌐 Internet & Tech
 | API | Description | HTTPS | Link |
 |-----|-------------|-------|------|
-| Public APIs | List of public APIs | ✅ | [Go!](https://api.publicapis.org/) |
 | HTTP Bin | HTTP request testing | ✅ | [Go!](https://httpbin.org/) |
 
 ## 📖 Usage Examples
