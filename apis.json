@@ -1,0 +1,224 @@
+{
+  "metadata": {
+    "name": "Totally Free APIs",
+    "description": "A curated collection of completely free APIs requiring no authentication",
+    "version": "1.0.0",
+    "lastUpdated": "2024-12-19",
+    "totalAPIs": 17
+  },
+  "categories": {
+    "geography": {
+      "name": "Geography & Location",
+      "icon": "🌍",
+      "apis": [
+        {
+          "name": "REST Countries",
+          "description": "Get information about countries",
+          "url": "https://restcountries.com/",
+          "endpoint": "https://restcountries.com/v3.1/all",
+          "https": true,
+          "cors": true,
+          "rateLimit": "None specified"
+        },
+        {
+          "name": "IP Geolocation",
+          "description": "Get geolocation data from IP address",
+          "url": "http://ip-api.com/",
+          "endpoint": "http://ip-api.com/json/",
+          "https": true,
+          "cors": true,
+          "rateLimit": "45 requests per minute"
+        },
+        {
+          "name": "Zippopotam.us",
+          "description": "Postal and zip code data",
+          "url": "http://www.zippopotam.us/",
+          "endpoint": "http://api.zippopotam.us/us/90210",
+          "https": true,
+          "cors": true,
+          "rateLimit": "None specified"
+        }
+      ]
+    },
+    "random": {
+      "name": "Random Data",
+      "icon": "🎲",
+      "apis": [
+        {
+          "name": "Random User",
+          "description": "Generate random user data",
+          "url": "https://randomuser.me/",
+          "endpoint": "https://randomuser.me/api/",
+          "https": true,
+          "cors": true,
+          "rateLimit": "None specified"
+        },
+        {
+          "name": "JSONPlaceholder",
+          "description": "Fake JSON data for testing",
+          "url": "https://jsonplaceholder.typicode.com/",
+          "endpoint": "https://jsonplaceholder.typicode.com/posts",
+          "https": true,
+          "cors": true,
+          "rateLimit": "None specified"
+        },
+        {
+          "name": "Lorem Picsum",
+          "description": "Random placeholder images",
+          "url": "https://picsum.photos/",
+          "endpoint": "https://picsum.photos/200/300",
+          "https": true,
+          "cors": true,
+          "rateLimit": "None specified"
+        },
+        {
+          "name": "Random Quote",
+          "description": "Inspirational quotes",
+          "url": "https://api.quotable.io/",
+          "endpoint": "https://api.quotable.io/random",
+          "https": true,
+          "cors": true,
+          "rateLimit": "180 requests per minute"
+        }
+      ]
+    },
+    "weather": {
+      "name": "Weather",
+      "icon": "🌤️",
+      "apis": [
+        {
+          "name": "Open-Meteo",
+          "description": "Weather forecasts",
+          "url": "https://open-meteo.com/",
+          "endpoint": "https://api.open-meteo.com/v1/forecast?latitude=52.52&longitude=13.41&current_weather=true",
+          "https": true,
+          "cors": true,
+          "rateLimit": "10,000 requests per day"
+        }
+      ]
+    },
+    "utilities": {
+      "name": "Utilities",
+      "icon": "🔢",
+      "apis": [
+        {
+          "name": "QR Server",
+          "description": "Generate QR codes",
+          "url": "https://goqr.me/api/",
+          "endpoint": "https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=Hello",
+          "https": true,
+          "cors": true,
+          "rateLimit": "None specified"
+        },
+        {
+          "name": "HTTP Status Codes",
+          "description": "HTTP status code information",
+          "url": "https://httpstat.us/",
+          "endpoint": "https://httpstat.us/200",
+          "https": true,
+          "cors": true,
+          "rateLimit": "None specified"
+        },
+        {
+          "name": "UUID Generator",
+          "description": "Generate UUIDs",
+          "url": "https://www.uuidgenerator.net/api",
+          "endpoint": "https://www.uuidgenerator.net/api/version4",
+          "https": true,
+          "cors": true,
+          "rateLimit": "None specified"
+        }
+      ]
+    },
+    "images": {
+      "name": "Images & Media",
+      "icon": "🎨",
+      "apis": [
+        {
+          "name": "Unsplash Source",
+          "description": "Random high-quality photos",
+          "url": "https://source.unsplash.com/",
+          "endpoint": "https://source.unsplash.com/800x600/?nature",
+          "https": true,
+          "cors": true,
+          "rateLimit": "50 requests per hour"
+        },
+        {
+          "name": "Placeholder.com",
+          "description": "Placeholder images",
+          "url": "https://placeholder.com/",
+          "endpoint": "https://via.placeholder.com/300x200",
+          "https": true,
+          "cors": true,
+          "rateLimit": "None specified"
+        },
+        {
+          "name": "Robohash",
+          "description": "Generate robot/monster avatars",
+          "url": "https://robohash.org/",
+          "endpoint": "https://robohash.org/test.png",
+          "https": true,
+          "cors": true,
+          "rateLimit": "None specified"
+        }
+      ]
+    },
+    "data": {
+      "name": "Data & Information",
+      "icon": "📊",
+      "apis": [
+        {
+          "name": "Numbers API",
+          "description": "Facts about numbers",
+          "url": "http://numbersapi.com/",
+          "endpoint": "http://numbersapi.com/42",
+          "https": true,
+          "cors": true,
+          "rateLimit": "None specified"
+        },
+        {
+          "name": "Cat Facts",
+          "description": "Random cat facts",
+          "url": "https://catfact.ninja/",
+          "endpoint": "https://catfact.ninja/fact",
+          "https": true,
+          "cors": true,
+          "rateLimit": "None specified"
+        },
+        {
+          "name": "Bored API",
+          "description": "Random activity suggestions",
+          "url": "https://www.boredapi.com/",
+          "endpoint": "https://www.boredapi.com/api/activity",
+          "https": true,
+          "cors": true,
+          "rateLimit": "None specified"
+        }
+      ]
+    },
+    "tech": {
+      "name": "Internet & Tech",
+      "icon": "🌐",
+      "apis": [
+        {
+          "name": "Public APIs",
+          "description": "List of public APIs",
+          "url": "https://api.publicapis.org/",
+          "endpoint": "https://api.publicapis.org/entries",
+          "https": true,
+          "cors": true,
+          "rateLimit": "None specified"
+        },
+        {
+          "name": "HTTP Bin",
+          "description": "HTTP request testing",
+          "url": "https://httpbin.org/",
+          "endpoint": "https://httpbin.org/ip",
+          "https": true,
+          "cors": true,
+          "rateLimit": "None specified"
+        }
+      ]
+    }
+  }
+} 
