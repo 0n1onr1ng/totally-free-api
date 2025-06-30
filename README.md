@@ -3,7 +3,8 @@
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
-> A curated collection of completely free APIs requiring no authentication - perfect for indie developers with zero budget.
+> A curated collection of completely free APIs requiring no authentication
+> I find many of these APIs are interesting and useful for side projects, so I'm collecting them here.
 
 ## 🎯 Project Goal
 
