@@ -55,6 +55,16 @@ This project focuses exclusively on APIs that are:
 |-----|-------------|-------|------|
 | Open-Meteo | Weather forecasts | ✅ | [Go!](https://open-meteo.com/) |
 
+### 🏛️ Government & Open Data
+| API | Description | HTTPS | Link |
+|-----|-------------|-------|------|
+| Census.gov | US Census Bureau demographic data | ✅ | [Go!](https://www.census.gov/data/developers/data-sets.html) |
+| Colorado Open Data | Colorado State Government data | ✅ | [Go!](https://data.colorado.gov/) |
+| USAspending.gov | US federal spending data | ✅ | [Go!](https://api.usaspending.gov/) |
+| Chronicling America | US newspaper archives 1777-1963 | ✅ | [Go!](http://chroniclingamerica.loc.gov/about/api/) |
+| Open Library | Book information and library services | ✅ | [Go!](https://openlibrary.org/developers/api) |
+| World Bank | Global development data | ✅ | [Go!](https://datahelpdesk.worldbank.org/knowledgebase/topics/125589) |
+
 ### 🌐 Internet & Tech
 | API | Description | HTTPS | Link |
 |-----|-------------|-------|------|
@@ -73,6 +83,11 @@ fetch('https://randomuser.me/api/')
 fetch('https://restcountries.com/v3.1/name/china')
   .then(response => response.json())
   .then(data => console.log(data));
+
+// Get US Census data
+fetch('https://api.census.gov/data/2019/acs/acs1?get=NAME&for=state:*')
+  .then(response => response.json())
+  .then(data => console.log(data));
 ```
 
 ### Python/Requests
@@ -88,6 +103,11 @@ print(data)
 response = requests.get('https://catfact.ninja/fact')
 fact = response.json()
 print(fact['fact'])
+
+# Get World Bank country data
+response = requests.get('https://api.worldbank.org/v2/countries?format=json')
+countries = response.json()
+print(countries)
 ```
 
 ### cURL
@@ -97,6 +117,9 @@ curl "https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=Hello%20Worl
 
 # Get IP location
 curl "http://ip-api.com/json/"
+
+# Get US federal spending data
+curl "https://api.usaspending.gov/api/v2/disaster/overview/"
 ```
 
 ## 🤝 Contributing

@@ -4,7 +4,7 @@
     "description": "A curated collection of completely free APIs requiring no authentication",
     "version": "1.0.0",
     "lastUpdated": "2024-12-19",
-    "totalAPIs": 17
+    "totalAPIs": 23
   },
   "categories": {
     "geography": {
@@ -190,6 +190,66 @@
           "description": "Random activity suggestions",
           "url": "https://www.boredapi.com/",
           "endpoint": "https://www.boredapi.com/api/activity",
+          "https": true,
+          "cors": true,
+          "rateLimit": "None specified"
+        }
+      ]
+    },
+    "government": {
+      "name": "Government & Open Data",
+      "icon": "🏛️",
+      "apis": [
+        {
+          "name": "Census.gov",
+          "description": "US Census Bureau demographic data",
+          "url": "https://www.census.gov/data/developers/data-sets.html",
+          "endpoint": "https://api.census.gov/data/2019/acs/acs1?get=NAME&for=state:*",
+          "https": true,
+          "cors": true,
+          "rateLimit": "None specified"
+        },
+        {
+          "name": "Colorado Open Data",
+          "description": "Colorado State Government data",
+          "url": "https://data.colorado.gov/",
+          "endpoint": "https://data.colorado.gov/api/views/4ykn-tg5h/rows.json",
+          "https": true,
+          "cors": true,
+          "rateLimit": "None specified"
+        },
+        {
+          "name": "USAspending.gov",
+          "description": "US federal spending data",
+          "url": "https://api.usaspending.gov/",
+          "endpoint": "https://api.usaspending.gov/api/v2/disaster/overview/",
+          "https": true,
+          "cors": true,
+          "rateLimit": "None specified"
+        },
+        {
+          "name": "Chronicling America",
+          "description": "US newspaper archives 1777-1963",
+          "url": "http://chroniclingamerica.loc.gov/about/api/",
+          "endpoint": "https://chroniclingamerica.loc.gov/search/titles/results/?terms=new&format=json",
+          "https": true,
+          "cors": true,
+          "rateLimit": "None specified"
+        },
+        {
+          "name": "Open Library",
+          "description": "Book information and library services",
+          "url": "https://openlibrary.org/developers/api",
+          "endpoint": "https://openlibrary.org/api/books?bibkeys=ISBN:0201558025&format=json",
+          "https": true,
+          "cors": true,
+          "rateLimit": "None specified"
+        },
+        {
+          "name": "World Bank",
+          "description": "Global development data",
+          "url": "https://datahelpdesk.worldbank.org/knowledgebase/topics/125589",
+          "endpoint": "https://api.worldbank.org/v2/countries?format=json",
           "https": true,
           "cors": true,
           "rateLimit": "None specified"
