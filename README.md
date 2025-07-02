@@ -55,6 +55,19 @@ This project focuses exclusively on APIs that are:
 |-----|-------------|-------|------|
 | Open-Meteo | Weather forecasts | ✅ | [Go!](https://open-meteo.com/) |
 
+### 💰 Cryptocurrency
+| API | Description | HTTPS | Link |
+|-----|-------------|-------|------|
+| BitcoinCharts | Bitcoin market data and charts | ✅ | [Go!](https://bitcoincharts.com/about/markets-api/) |
+| CoinCap | Real-time crypto pricing for 1000+ coins | ✅ | [Go!](https://docs.coincap.io/) |
+| CoinGecko | Crypto prices, market data, and charts | ✅ | [Go!](https://www.coingecko.com/en/api) |
+| Coinpaprika | Crypto prices and market research | ✅ | [Go!](https://api.coinpaprika.com/) |
+| CryptoCompare | Crypto prices and historical data | ✅ | [Go!](https://min-api.cryptocompare.com/) |
+| Cryptonator | Simple crypto prices and conversion | ✅ | [Go!](https://www.cryptonator.com/api/) |
+| Mempool | Bitcoin mempool and blockchain data | ✅ | [Go!](https://mempool.space/docs/api/rest) |
+| Mercado Bitcoin | Brazilian crypto exchange data | ✅ | [Go!](https://www.mercadobitcoin.com.br/api-doc/) |
+| Messari | Crypto research, data, and news | ✅ | [Go!](https://messari.io/api) |
+
 ### 🏛️ Government & Open Data
 | API | Description | HTTPS | Link |
 |-----|-------------|-------|------|
@@ -88,6 +101,11 @@ fetch('https://restcountries.com/v3.1/name/china')
 fetch('https://api.census.gov/data/2019/acs/acs1?get=NAME&for=state:*')
   .then(response => response.json())
   .then(data => console.log(data));
+
+// Get Bitcoin price
+fetch('https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=usd')
+  .then(response => response.json())
+  .then(data => console.log(`Bitcoin: $${data.bitcoin.usd}`));
 ```
 
 ### Python/Requests
@@ -108,6 +126,12 @@ print(fact['fact'])
 response = requests.get('https://api.worldbank.org/v2/countries?format=json')
 countries = response.json()
 print(countries)
+
+# Get top cryptocurrencies
+response = requests.get('https://api.coincap.io/v2/assets?limit=5')
+crypto_data = response.json()
+for asset in crypto_data['data']:
+    print(f"{asset['name']}: ${float(asset['priceUsd']):.2f}")
 ```
 
 ### cURL
@@ -120,6 +144,9 @@ curl "http://ip-api.com/json/"
 
 # Get US federal spending data
 curl "https://api.usaspending.gov/api/v2/disaster/overview/"
+
+# Get Bitcoin market data
+curl "https://api.cryptonator.com/api/ticker/btc-usd"
 ```
 
 ## 🤝 Contributing

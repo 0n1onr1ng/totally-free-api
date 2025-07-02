@@ -3,8 +3,8 @@
     "name": "Totally Free APIs",
     "description": "A curated collection of completely free APIs requiring no authentication",
     "version": "1.0.0",
-    "lastUpdated": "2024-12-19",
-    "totalAPIs": 23
+    "lastUpdated": "2025-7-2",
+    "totalAPIs": 32
   },
   "categories": {
     "geography": {
@@ -193,6 +193,93 @@
           "https": true,
           "cors": true,
           "rateLimit": "None specified"
+        }
+      ]
+    },
+    "cryptocurrency": {
+      "name": "Cryptocurrency",
+      "icon": "💰",
+      "apis": [
+        {
+          "name": "BitcoinCharts",
+          "description": "Bitcoin market data and charts",
+          "url": "https://bitcoincharts.com/about/markets-api/",
+          "endpoint": "https://api.bitcoincharts.com/v1/markets.json",
+          "https": true,
+          "cors": true,
+          "rateLimit": "None specified"
+        },
+        {
+          "name": "CoinCap",
+          "description": "Real-time crypto pricing for 1000+ coins",
+          "url": "https://docs.coincap.io/",
+          "endpoint": "https://api.coincap.io/v2/assets",
+          "https": true,
+          "cors": true,
+          "rateLimit": "200 requests per minute"
+        },
+        {
+          "name": "CoinGecko",
+          "description": "Crypto prices, market data, and charts",
+          "url": "https://www.coingecko.com/en/api",
+          "endpoint": "https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=usd",
+          "https": true,
+          "cors": true,
+          "rateLimit": "50 requests per minute"
+        },
+        {
+          "name": "Coinpaprika",
+          "description": "Crypto prices and market research",
+          "url": "https://api.coinpaprika.com/",
+          "endpoint": "https://api.coinpaprika.com/v1/coins",
+          "https": true,
+          "cors": true,
+          "rateLimit": "20000 requests per month"
+        },
+        {
+          "name": "CryptoCompare",
+          "description": "Crypto prices and historical data",
+          "url": "https://min-api.cryptocompare.com/",
+          "endpoint": "https://min-api.cryptocompare.com/data/price?fsym=BTC&tsyms=USD",
+          "https": true,
+          "cors": true,
+          "rateLimit": "100000 requests per month"
+        },
+        {
+          "name": "Cryptonator",
+          "description": "Simple crypto prices and conversion",
+          "url": "https://www.cryptonator.com/api/",
+          "endpoint": "https://api.cryptonator.com/api/ticker/btc-usd",
+          "https": true,
+          "cors": true,
+          "rateLimit": "None specified"
+        },
+        {
+          "name": "Mempool",
+          "description": "Bitcoin mempool and blockchain data",
+          "url": "https://mempool.space/docs/api/rest",
+          "endpoint": "https://mempool.space/api/blocks/tip/height",
+          "https": true,
+          "cors": true,
+          "rateLimit": "None specified"
+        },
+        {
+          "name": "Mercado Bitcoin",
+          "description": "Brazilian crypto exchange data",
+          "url": "https://www.mercadobitcoin.com.br/api-doc/",
+          "endpoint": "https://www.mercadobitcoin.net/api/BTC/ticker/",
+          "https": true,
+          "cors": true,
+          "rateLimit": "None specified"
+        },
+        {
+          "name": "Messari",
+          "description": "Crypto research, data, and news",
+          "url": "https://messari.io/api",
+          "endpoint": "https://data.messari.io/api/v1/assets",
+          "https": true,
+          "cors": true,
+          "rateLimit": "20 requests per minute"
         }
       ]
     },
